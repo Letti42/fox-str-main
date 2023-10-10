@@ -203,7 +203,7 @@ async function fetchm3files(currentGame) {
     epicgame = currentGame;
     console.log(currentGame);
 
-    let response = await fetch(`https://api3.fox.com/v2.0/screens/foxsports-detail/soccer/${_event}/events/${currentGame.url.split('boxscore-')[1]}`, {
+    let response = await fetch(`https://api3.fox.com/v2.0/screens/foxsports-detail/soccer/${_event}/events/${awesomestreamid}`, {
         headers: {
             "x-api-key": "cf289e299efdfa39fb6316f259d1de93",
         },
